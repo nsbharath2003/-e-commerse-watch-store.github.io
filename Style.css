@@ -227,5 +227,6 @@ max-width: 25%; /* Ensure the image doesn't exceed the width of its container */
 height: auto; /* Maintain the aspect ratio while resizing */
 margin-bottom: 10px;
 
+}
 
 /* Add additional styles as needed */
