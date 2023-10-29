@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>E-commerce Website</title>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="product.html">Product</a>
+        <a href="cart.html">Cart</a>
+        <a href="Contect Me.html">Contect Me</a>
+    </nav>
+
+  <div class="center-content">
+      <header>
+          <h1>Welcome to Our E-commerce Watch Store!</h1>
+      </header>
+  </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+  <body>
+   
+    <h1>Product Page</h1>
+
+    
+      <main>
+      <section id="men">
+          <h2>Men's Collection</h2>
+          <div class="product">
+              <img src="https://images.pexels.com/photos/10478973/pexels-photo-10478973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Women's Product 1" class="product-image">
+              <h3>Black and Silver Round Chronograph Watch
+ </h3>
+              <p>""Experience timeless elegance with our Black and Silver Round Chronograph Watch. Combining sleek black detailing with a polished silver finish, this watch is a sophisticated statement of style and precision.".</p>
+              <p>Price: ₹ 2000</p>
+              <button onclick="addToCart('Men\'s Product 1', 25.00)">Add to Cart</button>
+          </div>
+
+          <div class="product">
+              <img src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Women's Product 1" class="product-image">
+              <h3>Round Rolex Analog Watch With Silver-colored Link Bracelet
+</h3>
+              <p>"Elevate your wristwear with our Round Rolex Analog Watch featuring a stunning silver-colored link bracelet. This exquisite timepiece combines classic design with modern luxury, adding a touch of sophistication to any ensemble."</p>
+              <p>Price: ₹ 2000</p>
+              <button onclick="addToCart('Men\'s Product 2', 30.00)">Add to Cart</button>
+          </div>
+
+          <!-- Add more Men's products as needed -->
+      </section>
+      </main>
+    
+      <section id="women">
+              <h2>Women's Collection</h2>
+              <div class="product">
+                  <img src="https://images.pexels.com/photos/1162519/pexels-photo-1162519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Women's Product 1" class="product-image">
+                  <h3>Round Gold-colored Analog Watch With Pink Leather</h3>
+                  <p>"Elevate your style with our Round Gold-colored Analog Watch featuring a chic pink leather band. This elegant timepiece combines classic design with a touch of feminine charm, making it the perfect accessory for any occasion."
+
+
+
+
+</p>
+                  <p>Price: ₹ 2000</p>
+                  <button onclick="addToCart('Women\'s Product 1', 28.00)">Add to Cart</button>
+              </div>
+
+              <div class="product">
+                  <img src="https://images.pexels.com/photos/3419331/pexels-photo-3419331.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Women's Product 2" class="product-image">
+                  <h3>Round Gold-colored Fossil Analog Watch
+</h3>
+                  <p>"Enhance your wristwear with our Round Gold-colored Fossil Analog Watch. This exquisite timepiece marries timeless elegance with contemporary design, creating a sophisticated accessory that complements any outfit."</p>
+                  <p>Price: ₹ 2000</p>
+                  <button onclick="addToCart('Women\'s Product 2', 35.00)">Add to Cart</button>
+              </div>
+
+              <!-- Add more Women's products as needed -->
+          </section>
+
+         
+    
+  </body>
+
+  <body>
+      
+
+      <h1>Shopping Cart</h1>
+
+      <ul id="cart-items"></ul>
+      <p>Total: $<span id="cart-total">0.00</span></p>
+
+      <script src="script.js"></script>
+  </body>
+  <h1>Contect Me</h1>
+  <main>
+      <section class="contact-form">
+          <h2>Contect Me</h2>
+          <form id="contact-form">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" required>
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="address">Address:</label>
+              <textarea id="address" name="address" required></textarea>
+
+              <input type="submit" value="Submit">
+          </form>
+      </section>
+  </main>
+
+  <footer>
+      <p>&copy; 2023 BNS. All rights reserved.</p>
+  </footer>
+
+  
+
+</html>
